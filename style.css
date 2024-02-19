@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+#title{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+table{
+    padding: 0;
+    margin: 0 auto;
+}
+td{
+    border: 1px black solid;
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+}
+.square{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 80px;
+    vertical-align: middle;
+}
+#description{
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 0;
+    margin-bottom: 25px;
+}
+#selectioncontainer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.selection{
+    display: none;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+#resultAnnouncer{
+    text-align: center;
+    display: none;
+    margin: 10px auto;
+}
+#description2{
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 0;
+    margin-bottom: 25px;
+}
+.gameType{
+    padding: 10px 50px;
+    font-size: 20px;
+}
+#restartDiv{
+    text-align: center;
+}
+#restart{
+    display: none;
+    padding: 10px 20px;
+    margin: 25px auto;
+    font-size: 50px;
+}
+#description3{
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 0;
+    margin-bottom: 25px;
+}
+.whoFirst{
+    display: none;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+#altDescription{
+    display: none;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 0;
+    margin-bottom: 25px;
+}

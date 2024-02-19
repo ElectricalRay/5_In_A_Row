@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Five-In-A-Row</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src='script.js' async></script>
+</head>
+<body>
+<h1 id="title">Five In A Row</h1>
+<p id="description">Who goes first, X or O?</p>
+<p id="altDescription">Do you want to be X or O</p>
+<div id="selectioncontainer">
+    <button type="button" id="xButton" class="selection">X</button>
+    <button type="button " id="oButton" class="selection">O</button> <br>
+    <p id="description2">Do you want 2 player mode or player vs computer?</p> <br>
+    <button type="button" id="compButton" class="gameType">Computer</button>
+    <button type="button" id="2pbutton" class="gameType">2 Player</button>
+    <p id="description3">Who goes first, player or computer?</p>
+    <button type="button" id="compFirstButton" class="whoFirst">Computer</button>
+    <button type="button" id="playerFirstButton" class="whoFirst">Player</button>
+</div>
+<h2 id="resultAnnouncer"></h2>
+<table cellspacing='0' cellpadding='0'>
+    <tr>
+        <td class="square" id="0,4"></td>
+        <td class="square" id='1,4'></td>
+        <td class="square" id="2,4"></td>
+        <td class="square" id="3,4"></td>
+        <td class="square" id="4,4"></td>
+    </tr>
+    <tr>
+        <td class="square" id="0,3"></td>
+        <td class="square" id="1,3"></td>
+        <td class="square" id="2,3"></td>
+        <td class="square" id="3,3"></td>
+        <td class="square" id="4,3"></td>
+    </tr>
+    <tr>
+        <td class="square" id="0,2"></td>
+        <td class="square" id="1,2"></td>
+        <td class="square" id="2,2"></td>
+        <td class="square" id='3,2'></td>
+        <td class="square" id="4,2"></td>
+    </tr>
+    <tr>
+        <td class="square" id="0,1"></td>
+        <td class="square" id="1,1"></td>
+        <td class="square" id="2,1"></td>
+        <td class="square" id="3,1"></td>
+        <td class="square" id="4,1"></td>
+    </tr>
+    <tr>
+        <td class="square" id="0,0"></td>
+        <td class="square" id="1,0"></td>
+        <td class="square" id="2,0"></td>
+        <td class="square" id="3,0"></td>
+        <td class="square" id="4,0"></td>
+    </tr>
+</table>
+<div id="restartDiv">
+    <button type="button" id="restart">Play Again?</button>
+</div>
+</body>
+</html>
